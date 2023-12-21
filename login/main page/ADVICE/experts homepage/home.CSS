@@ -1,0 +1,78 @@
+body
+{
+    background-size:cover;
+    background-repeat:no-repeat;
+    /* backdrop-filter:blur(4px); */
+}
+h1
+{
+    font-size:70pt;
+    font-style:italic;
+    text-align:center;
+    font-weight:bold;
+    color:rgb(80, 154, 234);
+}
+h2
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.a
+{
+    font-size:25pt;
+    /* background-color:rgb(4,16,245); */
+    color:white;
+}
+.experts-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expert 
+{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(99, 123, 231);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.expert img 
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.expert h2 
+{color: black;
+    margin: 10px 0;
+    font-size: 24px;
+}
+.expert p 
+{
+    font-weight:bolder;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.expert A{
+color: white;
+}
+.ask {
+    text-align: center; 
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25pt;
+    /* color: rgb(255, 255, 255); */
+    /* background-color: white; */
+    display: inline-block;
+   
+}
+.ask-text {
+    text-align: center;
+    /* background-color: aqua; */
+    color:rgb(225, 230, 231); 
+    font-size: 24pt;
+    width: 100px;
+    border-radius: 30%;
+}
